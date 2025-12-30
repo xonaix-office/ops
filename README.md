@@ -1,61 +1,43 @@
 # Xonaix Operations
 
-**Status:** 📘 Active  
-**Classification:** Proprietary  
-**System of Record:** Business operations, brand, documentation, runbooks
+Business operations assets that need version control but are not system specifications.
 
 ---
-
-## Overview
-
-This repository contains non-code operational assets for Xonaix, including brand guidelines, marketing materials, user documentation, and internal runbooks.
 
 ## Structure
 
-```
-xonaix-ops/
-├── brand/              # Visual identity
-│   ├── logos/         # Logo files (SVG, PNG)
-│   ├── colors/        # Color palettes
-│   ├── typography/    # Font specifications
-│   └── guidelines.md  # Brand usage guidelines
-├── marketing/          # Public communications
-│   └── ...
-├── docs/               # User-facing documentation
-│   └── ...
-└── runbooks/           # Internal operations
-    └── ...
-```
-
-## Brand
-
-The `brand/` directory contains official Xonaix visual identity assets. See `brand/guidelines.md` for usage rules.
-
-## Documentation
-
-User documentation will be developed as the platform matures. This may eventually move to a dedicated docs site.
-
-## Runbooks
-
-Internal operational procedures for:
-
-- Incident response
-- Deployment procedures
-- On-call responsibilities
-- Customer support escalation
-
-## Contributing
-
-1. Brand changes require founder approval
-2. Documentation follows editorial review
-3. Runbooks require operational sign-off
-
-## License
-
-**Proprietary. All Rights Reserved.**
-
-© 2025 Xonaix, Inc.
+| Folder | Purpose |
+|--------|---------|
+| `marketing/` | Brand assets, guidelines, pitch materials |
+| `legal/` | Legal templates, policies, agreements |
 
 ---
 
-*Xonaix, Inc. — Intelligence, evolved.*
+## What Belongs Here
+
+- Brand assets (logos, colors, guidelines)
+- Legal templates and policies
+- Marketing materials and pitch decks
+- Operational documentation
+
+---
+
+## What Does NOT Belong Here
+
+- System specifications (use xonaix-specs)
+- Implementation code
+- Customer data or secrets
+
+---
+
+## Folder Details
+
+### marketing/
+Brand identity and marketing materials — logos, style guides, pitch decks. See `marketing/README.md` for full structure.
+
+### legal/
+Legal templates and policies — NDAs, contracts, privacy policy templates. **Not for signed documents or confidential agreements.** See `legal/README.md` for details.
+
+---
+
+*Xonaix — Intelligence, evolved.*

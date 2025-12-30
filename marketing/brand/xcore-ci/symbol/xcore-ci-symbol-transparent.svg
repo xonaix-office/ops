@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 60">
+  <defs>
+    <style>
+      .x-letter {
+        font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif;
+        font-size: 52px;
+        font-weight: 500;
+        font-style: italic;
+        fill: #FFFFFF;
+      }
+    </style>
+  </defs>
+  
+  <!-- Italic X -->
+  <text class="x-letter" x="6" y="48">X</text>
+  
+</svg>

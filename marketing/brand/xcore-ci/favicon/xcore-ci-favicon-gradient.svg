@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="cyanPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00FFF0"/>
+      <stop offset="100%" style="stop-color:#BD00FF"/>
+    </linearGradient>
+    <style>
+      .x-letter {
+        font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif;
+        font-size: 44px;
+        font-weight: 500;
+        font-style: italic;
+        fill: url(#cyanPurple);
+      }
+    </style>
+  </defs>
+  
+  <!-- Rounded square background -->
+  <rect width="64" height="64" rx="12" ry="12" fill="#050810"/>
+  
+  <!-- Italic X - centered -->
+  <text class="x-letter" x="14" y="47">X</text>
+  
+</svg>

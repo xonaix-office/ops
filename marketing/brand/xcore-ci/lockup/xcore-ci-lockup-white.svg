@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60">
+  <defs>
+    <style>
+      .x-letter {
+        font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif;
+        font-size: 52px;
+        font-weight: 500;
+        font-style: italic;
+        fill: #FFFFFF;
+      }
+      .ci-letters {
+        font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif;
+        font-size: 21px;
+        font-weight: 600;
+        fill: #FFFFFF;
+        letter-spacing: 0.5px;
+      }
+      .core-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif;
+        font-size: 6px;
+        font-weight: 600;
+        fill: #FFFFFF;
+        letter-spacing: 2px;
+      }
+      .divider {
+        stroke: #FFFFFF;
+        stroke-width: 1;
+        opacity: 0.3;
+      }
+      .xonaix-wordmark {
+        font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif;
+        font-size: 24px;
+        font-weight: 500;
+        fill: #FFFFFF;
+        letter-spacing: 1px;
+      }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="200" height="60" fill="#050810"/>
+  
+  <!-- Italic X - LOCKED -->
+  <text class="x-letter" x="6" y="48">X</text>
+  
+  <!-- "CORE" - LOCKED -->
+  <text class="core-text" transform="translate(34.5, 31.5) rotate(-45)">CORE</text>
+  
+  <!-- CI - LOCKED -->
+  <text class="ci-letters" x="40" y="48.00">CI</text>
+  
+  <!-- Divider line -->
+  <line class="divider" x1="100" y1="15" x2="100" y2="45"/>
+  
+  <!-- Xonaix wordmark -->
+  <text class="xonaix-wordmark" x="110" y="40">Xonaix</text>
+  
+</svg>
